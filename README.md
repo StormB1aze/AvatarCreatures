@@ -34,7 +34,7 @@ Forked from DarnHyena's [LethalCreatures mod](https://github.com/DarnHyena/Letha
 5. Copy `LethalCreatures/bin/Debug/netstandard2.1/CreatureModels.dll` to `C:/Users/<username>/AppData/Roaming/Thunderstore Mod Manager/DataFolder/LethalCompany/profiles/Default/BepInEx/plugins/PeanutBuddha-AvatarCreature/CreatureModels.dll`
 6. (optionally) From Unity use official plugin "AssetBundle Browser" to create a new bundle named "core" with these files (the mod uses another mod to load them from their own assetbundle):
 
-   - `UnityAssets/CritterControl.controller`
+   - `UnityAssets/Creaturecontrol.controller`
    - `UnityAssets/CtritterIdle.anim`
 
 7. Launch game

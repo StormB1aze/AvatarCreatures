@@ -73,11 +73,11 @@ namespace CreatureModels
                     throw new Exception($"Model fbx not found inside bundle");
                 }
 
-                RuntimeAnimatorController animController = LC_API.BundleAPI.BundleLoader.GetLoadedAsset<RuntimeAnimatorController>("assets/crittercontrol.controller");
+                RuntimeAnimatorController animController = LC_API.BundleAPI.BundleLoader.GetLoadedAsset<RuntimeAnimatorController>("assets/Creaturecontrol.controller");
 
                 if (animController == null)
                 {
-                    animController = LC_API.BundleAPI.BundleLoader.GetLoadedAsset<RuntimeAnimatorController>("assets/assets/crittercontrol.controller");
+                    animController = LC_API.BundleAPI.BundleLoader.GetLoadedAsset<RuntimeAnimatorController>("assets/assets/Creaturecontrol.controller");
 
                     if (animController == null)
                     {

@@ -30,11 +30,11 @@ namespace CreatureModels.Patches
 
                     if (Creature.Length > 0)
                     {
-                        Debug.Log($"Steam ID {player.playerSteamId} already has creature, skipping");
+                        Debug.Log($"Steam ID {player.playerSteamId} already has Creature, skipping");
                         continue;
                     }
 
-                    Debug.Log($"Adding creature to steam ID {player.playerSteamId}");
+                    Debug.Log($"Adding Creature to steam ID {player.playerSteamId}");
 
                     player.gameObject.AddComponent<CreatureController>();
                 }
